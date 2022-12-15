@@ -1,0 +1,48 @@
+col-bl = #000000
+col-wh = #FFFFFF
+
+transparent    = #00000000
+transparent-dk = #44000000
+transparent-lt = #44FFFFFF
+
+c-00 = #0e1c23
+c-0088 = #880e1c23
+c-00DD = #DD0e1c23
+c-01 = #638ba4
+c-02 = #739bb6
+c-03 = #5baac8
+c-04 = #6db5e5
+c-05 = #7dbdc9
+c-06 = #a5c1cf
+c-07 = #c2c6c8
+
+c-08 = #4a545a
+c-09 = #638ba4
+c-10 = #739bb6
+c-11 = #5baac8
+c-12 = #6db5e5
+c-13 = #7dbdc9
+c-14 = #a5c1cf
+c-15 = #c2c6c8
+
+foreground   = ${colors.c-15}
+background   = ${colors.c-0088}
+foreground-1 = ${colors.c-00DD}
+background-1 = ${colors.c-01}
+foreground-2 = ${colors.c-00DD}
+background-2 = ${colors.c-02}
+foreground-3 = ${colors.c-00DD}
+background-3 = ${colors.c-03}
+foreground-4 = ${colors.c-00DD}
+background-4 = ${colors.c-02}
+foreground-5 = ${colors.c-00DD}
+background-5 = ${colors.c-01}
+
+tags-fg     = ${colors.foreground}
+prefix-fg-1 = ${colors.col-wh}
+prefix-fg-2 = ${colors.col-wh}
+prefix-fg-3 = ${colors.col-wh}
+prefix-fg-4 = ${colors.col-wh}
+prefix-fg-5 = ${colors.col-wh}
+prefix-fg-6 = ${colors.col-wh}
+prefix-fg   = ${colors.col-wh}
