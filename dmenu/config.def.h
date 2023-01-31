@@ -93,7 +93,7 @@ static const unsigned int alphas[][3]      = {
 
 
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
-static unsigned int lines      = 20;
+static unsigned int lines      = 10;
 
 /*
  * SELECT YOUR COLOR SCHEME
