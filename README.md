@@ -36,7 +36,7 @@ cd arch-config
 cd dmenu
 sudo make clean install
 ```
-### dmwm
+### dmw
 ```bash
 cd ../dwm
 sudo make clean install
@@ -52,3 +52,10 @@ sudo make clean install
 echo "exec dwm" > ~/.xinitrc
 ```
 5. Restart your X session or reboot your system to apply the changes.
+
+## Customization
+Feel free to explore the configuration files and make changes to suit your needs. Each application's directory contains a config.h file where you can modify settings, keybindings, and more.
+If you make any changes, be sure to recompile and reinstall the affected application(s) using the sudo make clean install command.
+## Acknowledgments
+- The suckless community for creating and maintaining dmenu, dwm, and st
+- Various patch authors for their contributions to extending the functionality of these applications
